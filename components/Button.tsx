@@ -6,7 +6,7 @@ export const Button = () => {
     return (
         <>
         <div className=" relative  hidden sm:block shadow-custom max-w-[365px] lg:max-w-[626px] w-full duration-300 hover:scale-110 cursor-pointer">
-            <Link href="https://app.wisdomnow.co/looped/signIn" target="_blank" rel="noopener noreferrer" className="cursor-pointer" >
+            <Link href="https://app.wisdomnow.co/signIn" target="_blank" rel="noopener noreferrer" className="cursor-pointer" >
             <Image src={'/Button.png'} width={500} height={111} alt="" className=" dragfalse" draggable='false'/>
             <div className=" absolute top-5 sm:top-5 lg:top-9 left-1/4 ">
                 <p className=" text-[16px] lg:text-[20px] font-bold leading-[14px] md:leading-[24px]">START NOW</p>
@@ -23,7 +23,7 @@ export const Button = () => {
         </div>
 
         <div className=" relative  block sm:hidden shadow-custom max-w-[365px] lg:max-w-[626px] w-full duration-300 hover:scale-110 cursor-pointer">
-            <Link href="https://app.wisdomnow.co/looped/signIn" target="_blank" rel="noopener noreferrer" className="cursor-pointer" >
+            <Link href="https://app.wisdomnow.co/signIn" target="_blank" rel="noopener noreferrer" className="cursor-pointer" >
             <Image src={'/buttonMobile.png'} width={335} height={111} alt="" className=" dragfalse" draggable='false'/>
             <div className=" absolute top-6 sm:top-5 lg:top-9 left-1/4 -translate-x-[calc(25%-10px)] ">
                 <p className=" text-[16px] lg:text-[20px] font-bold leading-[14px] md:leading-[24px]">START NOW</p>

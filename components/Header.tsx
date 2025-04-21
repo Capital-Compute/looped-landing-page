@@ -28,7 +28,7 @@ export const Header = () => {
         <Link href={"/faq"}>FAQ</Link>
         <p>Privacy</p>
         <p>Science</p>
-        <Link href="https://app.wisdomnow.co/looped/signIn" target="_blank" rel="noopener noreferrer" className=" border-[2px] font-bold border-r-[#F686DC] border-t-[#FFCB78] border-b-[#F686DC] border-l-[#FFCB78] w-[164px] h-[50px] rounded-[40px] text-[16px] flex items-center justify-center">
+        <Link href="https://app.wisdomnow.co/signIn" target="_blank" rel="noopener noreferrer" className=" border-[2px] font-bold border-r-[#F686DC] border-t-[#FFCB78] border-b-[#F686DC] border-l-[#FFCB78] w-[164px] h-[50px] rounded-[40px] text-[16px] flex items-center justify-center">
           Join Now
         </Link>
       </div>

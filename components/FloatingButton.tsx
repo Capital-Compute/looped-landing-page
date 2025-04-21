@@ -1,10 +1,11 @@
 import Image from "next/image"
+import Link from "next/link"
 
 export const FloatingButton = () => {
 
   return (
     <>
-      <div
+      <Link href="https://app.wisdomnow.co/signIn" target="_blank" rel="noopener noreferrer" 
         className=" relative shadow-custom  duration-300 hover:scale-110 cursor-pointer min-w-[200px] min-h-[70px] max-w-[200px] max-h-[70px] lg:min-w-[282px] lg:min-h-[92px] lg:max-w-[282px] lg:max-h-[92px]">
         <Image src={'/floating-button.png'} width={282} height={92} alt="" className=" dragfalse w-full h-full" draggable='false'/>
         <div
@@ -16,7 +17,7 @@ export const FloatingButton = () => {
           <Image src={'/WhatsupGif.gif'} width={40} height={40} alt=""
                  className="w-[30px] h-[30px] lg:w-[40px] lg:h-[40px] "/>
         </div>
-      </div>
+      </Link>
     </>
 
   )
